@@ -1,19 +1,15 @@
-import Navbar from '../components/Navbar'
-import Head from 'next/head'
+import Navbar from "../components/Navbar";
+import Head from "next/head";
 
-const Layout = (props) => (
-<div>
+const Layout = props => (
+  <div>
     <Head>
-        <title>
-            BitzPricing
-        </title>
-        <link rel="stylesheet" href="../../static/css/bootstrap.min.css"/>
+      <title>BitzPricing</title>
+      <link rel="stylesheet" href="../../static/css/bootstrap.min.css" />
     </Head>
-    <Navbar/>
-    <div className = "container">
-        {props.children}
-    </div>
-</div>
+    <Navbar />
+    <div className="container">{props.children}</div>
+  </div>
 );
 
-export default Layout
+export default Layout;
