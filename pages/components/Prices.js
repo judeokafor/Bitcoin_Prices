@@ -5,7 +5,7 @@ export class Prices extends Component {
         currency : 'USD'
     }
   render() {
-      let list = '';
+      let list = ''; 
       if (this.state.currency === 'USD' ){
         list = <li className = "list-group-item">
                     Bitcoin Rate for {this.props.bpi.USD.description} : 
