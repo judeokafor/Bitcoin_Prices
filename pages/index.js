@@ -20,8 +20,5 @@ import Prices from './components/Prices';
         return {
             bpi: data.bpi,
         }
-    }
-
-
-    
+    }    
 export default Index
